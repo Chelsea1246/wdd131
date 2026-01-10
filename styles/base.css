@@ -1,6 +1,6 @@
 /* CSS Variables*/
 :root {
-    --primary-color: #0a4c8c;
+    --primary-color: #c9d0d6;
     --accent-color: #f2f2f2;
     --dark-color:#222;
     --light-color: #ffffff;
@@ -22,7 +22,7 @@ body{
 
 /*Header*/
 header {
-  background-color: #1f4e70;
+  background-color: #4f95c7;
   color: white;
   text-align: center;
   padding: 1rem 0;
