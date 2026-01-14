@@ -1,0 +1,132 @@
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: rgb(121, 212, 224);
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Headings */
+h1 {
+  color: #333;
+}
+
+/* Main section */
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Profile image inside main */
+main img {
+  width: 150px;
+  height: auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Aside section */
+aside {
+  width: 20rem;
+  margin: 1rem auto;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+/* Image inside aside */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Paragraph */
+p {
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+/* Navigation */
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Headings */
+h1 {
+  color: #333;
+}
+
+/* Main section */
+main {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Profile image inside main */
+main img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Aside section */
+aside {
+  width: 20rem;
+  margin: 1rem auto;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+/* Image inside aside */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Paragraph */
+p {
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
