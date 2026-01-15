@@ -9,7 +9,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #d8a3e2;
+  background-color: #fafafa;
   color: #222;
 }
 
@@ -117,6 +117,10 @@ figure img {
   height: auto;
 }
 
+/* Temple-specific styles */
+
+
+
 /* =============================
    GLOBAL IMAGE SAFETY
 ============================= */
@@ -130,10 +134,13 @@ img {
 ============================= */
 footer {
   background: #8dc0e4;
-  color: white;
+  color: rgb(150, 212, 228);
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer p {
