@@ -1,15 +1,11 @@
-@media screen and (min-width: 768px) {
-    nav {
-        display: flex; /* show nav in larger screens */
-        flex-direction: row;
-        gap: 1rem;
-    }
+@media screen and (min-width: 32rem) {
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-    #hamburger {
-        display: none; /* hide hamburger */
-    }
-
-    .grid-container {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
+
