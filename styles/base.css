@@ -117,28 +117,6 @@ figure img {
   height: auto;
 }
 
-/* =============================
-   GLOBAL IMAGE SAFETY
-============================= */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* =============================
-   MEDIA QUERIES FOR LARGE SCREENS
-============================= */
-
-@media screen and (min-width: 32rem) {
-  nav {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .grid-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 
 /* =============================
    FOOTER
