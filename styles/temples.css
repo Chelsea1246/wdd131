@@ -50,7 +50,7 @@ nav a {
 
 nav a:hover {                 
   background-color: #222;
-  color: #ffffff;
+  color: #fff;
 }
 
 /* =============================
@@ -90,7 +90,7 @@ figure img {
 ============================= */
 .cards {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
