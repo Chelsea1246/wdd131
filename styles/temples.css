@@ -1,12 +1,13 @@
-/* =============================
-   NAVIGATION (MOBILE FIRST)
-============================= */
-
+/* ===== Navigation ===== */
 nav {
   display: none;
   flex-direction: column;
-  background-color: #c9d0d6;
   width: 100%;
+  background-color: #c9d0d6;
+}
+
+nav.open {
+  display: flex;
 }
 
 nav a {
@@ -21,35 +22,28 @@ nav a:hover {
   color: #ffffff;
 }
 
-/* Toggle class for hamburger */
-nav.open {
-  display: flex;
+#hamburger {
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-/* =============================
-   MAIN LAYOUT
-============================= */
-
+/* ===== Main ===== */
 main {
-  max-width: 800px;
+  max-width: 700px;
   margin: 2rem auto;
   padding: 1rem;
 }
 
-/* =============================
-   GRID CONTAINER (REQUIRED)
-============================= */
-
+/* ===== Grid ===== */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
 }
 
-/* =============================
-   FIGURES (UNIFORM IMAGES)
-============================= */
-
+/* ===== Figures ===== */
 figure {
   background-color: #ffffff;
   padding: 0.75rem;
@@ -62,32 +56,4 @@ figure img {
   height: 200px;
   object-fit: cover;
   border-radius: 6px;
-}
-
-figcaption {
-  margin-top: 0.5rem;
-  font-weight: 600;
-}
-
-/* =============================
-   HAMBURGER BUTTON
-============================= */
-
-#hamburger {
-  font-size: 1.6rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* =============================
-   FOOTER
-============================= */
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  background-color: #d4dadf;
-  color: #101111;
 }

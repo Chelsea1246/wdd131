@@ -9,8 +9,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
   color: #222;
+  background-color: #fafafa;
 }
 
 h1 {
@@ -19,116 +19,18 @@ h1 {
   margin: 1rem 0;
 }
 
-/* =============================
-   HEADER
-============================= */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
   background-color: #c9d0d6;
-}
-
-header h2 {
-  font-size: 1.4rem;
-}
-
-/* =============================
-   NAVIGATION (FLEXBOX)
-============================= */
-nav {
-  display: flex;              
-  flex-direction: column;
-}
-
-nav a {
-  text-decoration: none;
-  color: #222;
-  padding: 0.5rem;
-}
-
-nav a:hover {                
-  background-color: #222;
-  color: #ffffff;
-}
-
-/* =============================
-   MAIN CONTENT
-============================= */
-main {
-  max-width: 700px;
-  margin: 2rem auto;
   padding: 1rem;
 }
 
-/* =============================
-   GRID LAYOUT (REQUIRED)
-============================= */
-.grid-container {
-  display: grid;             
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}
-
-figure {
-  background-color: #f0e9e9;
-  padding: 0.75rem;
-  text-align: center;
-  border-radius: 8px;
-}
-
-figure img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-
-/* =============================
-   CARD SECTION
-============================= */
-.cards {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 1rem;
-}
-
-.card {
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-.card h2 {
-  background-color: #5080a1;
-  color: #ffffff;
-  text-align: center;
-  padding: 0.5rem;
-  margin: -1rem -1rem 1rem -1rem;
-  border-radius: 8px 8px 0 0;
-}
-
-.card img {
-  max-width: 150px;
-  float: right;
-  margin-left: 1rem;
-  height: auto;
-}
-
-
-/* =============================
-   FOOTER
-============================= */
 footer {
-  background: #1f4e70;
-  color: white;
+  background-color: #d4dadf;
+  color: #101111;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-}
-
-footer p {
-  margin: 0.3rem 0;
 }
