@@ -26,13 +26,15 @@
     <!-- HEADER -->
 <header>
   <h2>Temple Album</h2>
-    <nav>
+  <button id="hamburger" aria-label="Menu">☰</button>
+
+    <nav id="navMenu">
         <a href="#">Home</a>
         <a href="#">Old</a>
         <a href="#">New</a>
         <a href="#">Large</a>
         <a href="#">Small</a>
-        </nav>
+      </nav>
     </header>
 
     <!-- MAIN -->
@@ -81,7 +83,9 @@
 
     <!-- FOOTER -->
 <footer>
-    <p>&copy; 2026 Chelsea Opoku</p>
+  <p>&copy; <span id="year"></span> Chelsea Opoku</p>
+  <p>Last Modified: <span id="lastModified"></span></p>
 </footer>
+
 </body>
 </html>

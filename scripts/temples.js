@@ -1,14 +1,11 @@
-// Set current year
-document.getElementById('year').textContent = new Date().getFullYear();
-
-// Set last modified date
-document.getElementById('last-modified').textContent = document.lastModified;
-
-// Hamburger toggle
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('nav-menu');
+// Hamburger menu toggle
+const hamburger = document.querySelector('#hamburger');
+const navMenu = document.querySelector('#navMenu');
 
 hamburger.addEventListener('click', () => {
-    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
-    hamburger.textContent = navMenu.style.display === 'flex' ? '✖' : '☰';
+  navMenu.classList.toggle('open');
 });
+
+// Footer dates
+document.querySelector('#year').textContent = new Date().getFullYear();
+document.querySelector('#lastModified').textContent = document.lastModified;

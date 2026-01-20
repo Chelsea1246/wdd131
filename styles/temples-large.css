@@ -1,7 +1,13 @@
-/* ===== Larger Screens ===== */
 @media (min-width: 768px) {
+
   nav {
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #hamburger {
+    display: none;
   }
 
   .grid-container {
