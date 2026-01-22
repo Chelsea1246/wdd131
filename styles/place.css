@@ -1,0 +1,85 @@
+/* =======================
+   CSS VARIABLES
+======================= */
+:root {
+    --primary-color: #198754;
+    --secondary-color: #000000;
+    --accent-color: #ffffff;
+    --background-color: #f4f4f4;
+}
+
+/* =======================
+   GLOBAL STYLES
+======================= */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.data, .weather {
+    background-color: var(--accent-color);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Mobile weather icon */
+.weather-icon {
+    width: 50px;
+    display: block;
+}
+
+/* =======================
+   FOOTER
+======================= */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+/* =======================
+   MEDIA QUERY (LARGER VIEW)
+======================= */
+@media (min-width: 32rem) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    /* Hide SVG icon on large view */
+    .weather-icon {
+        display: none;
+    }
+
+    /* Pseudo-element weather icon */
+    .weather h2::after {
+        content: " ⛅";
+    }
+}
