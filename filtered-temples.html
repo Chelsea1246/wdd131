@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Album</title>
+
+  <meta name="description" content="A responsive temple album page showcasing temples with lazy loading and filtering.">
+  <meta name="author" content="Chelsea Opoku">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="filtered-temple.css">
+
+  <!-- JavaScript -->
+  <script src="filtered-temple.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h2>Temple Album</h2>
+    <button id="hamburger" aria-label="Toggle Menu">☰</button>
+
+    <nav id="navMenu">
+      <a href="#" id="home">Home</a>
+      <a href="#" id="old">Old</a>
+      <a href="#" id="new">New</a>
+      <a href="#" id="large">Large</a>
+      <a href="#" id="small">Small</a>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <h1>Chelsea Afriyie Opoku</h1>
+
+    <!-- Temple cards will be dynamically inserted here -->
+    <section id="temple-cards" class="grid-container">
+      <!-- JavaScript generates temple cards -->
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> Chelsea Opoku</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+
+</body>
+</html>
