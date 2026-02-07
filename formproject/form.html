@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Product Review Form</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" id="productForm">
+
+            <!-- Product Name -->
+            <label for="productName">Product Name:</label>
+            <select id="productName" name="productName" required>
+                <option value="" disabled selected>Select a Product ...</option>
+                <!-- Options will be dynamically added by JavaScript -->
+            </select>
+
+            <!-- Overall Rating -->
+            <fieldset>
+                <legend>Overall Rating:</legend>
+                <label for="star1">1 Star</label>
+                <input type="radio" id="star1" name="rating" value="1" required>
+                <label for="star2">2 Stars</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star3">3 Stars</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star4">4 Stars</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star5">5 Stars</label>
+                <input type="radio" id="star5" name="rating" value="5">
+            </fieldset>
+
+            <!-- Date of Installation -->
+            <label for="installDate">Date of Installation:</label>
+            <input type="date" id="installDate" name="installDate" required>
+
+            <!-- Useful Features -->
+            <fieldset>
+                <legend>Useful Features:</legend>
+                <label for="feature1">
+                    <input type="checkbox" id="feature1" name="features" value="Ease of Use">
+                    Ease of Use
+                </label>
+                <label for="feature2">
+                    <input type="checkbox" id="feature2" name="features" value="Performance">
+                    Performance
+                </label>
+                <label for="feature3">
+                    <input type="checkbox" id="feature3" name="features" value="Design">
+                    Design
+                </label>
+                <label for="feature4">
+                    <input type="checkbox" id="feature4" name="features" value="Value for Money">
+                    Value for Money
+                </label>
+            </fieldset>
+
+            <!-- Written Review -->
+            <label for="review">Written Review:</label>
+            <textarea id="review" name="review" rows="5" cols="40" placeholder="Write your review here..."></textarea>
+
+            <!-- User Name -->
+            <label for="userName">Your Name:</label>
+            <input type="text" id="userName" name="userName" placeholder="Optional">
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit Review">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 Chelsea Afriyie Opoku | Zambia</p>
+    </footer>
+
+    <!-- JavaScript for dynamic product options -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
