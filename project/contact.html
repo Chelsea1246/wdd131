@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Youth Empowerment Hub</title>
+    <meta name="description" content="Contact form for inquiries, suggestions, or subscriptions.">
+    <meta name="author" content="Chelsea Afriyie Opoku">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="styles/base.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <span id="course-title">YOUTH EMPOWERMENT & SKILL DEVELOPMENT HUB</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="opportunities.html">Opportunities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <h1>Contact Us</h1>
+
+        <form id="contact-form" method="get" action="review.html">
+            <!-- Product Name -->
+            <label for="product">Product:</label>
+            <select id="product" name="product" required>
+                <option value="" disabled selected>Select a Product ...</option>
+            </select>
+
+            <!-- Overall Rating -->
+            <fieldset>
+                <legend>Overall Rating:</legend>
+                <label><input type="radio" name="rating" value="1" required> 1</label>
+                <label><input type="radio" name="rating" value="2" required> 2</label>
+                <label><input type="radio" name="rating" value="3" required> 3</label>
+                <label><input type="radio" name="rating" value="4" required> 4</label>
+                <label><input type="radio" name="rating" value="5" required> 5</label>
+            </fieldset>
+
+            <!-- Date of Installation -->
+            <label for="date">Date of Installation:</label>
+            <input type="date" id="date" name="date" required>
+
+            <!-- Useful Features -->
+            <fieldset>
+                <legend>Useful Features:</legend>
+                <label><input type="checkbox" name="features" value="Feature1"> Feature 1</label>
+                <label><input type="checkbox" name="features" value="Feature2"> Feature 2</label>
+                <label><input type="checkbox" name="features" value="Feature3"> Feature 3</label>
+            </fieldset>
+
+            <!-- Written Review -->
+            <label for="review">Written Review:</label>
+            <textarea id="review" name="review"></textarea>
+
+            <!-- User Name -->
+            <label for="username">Name (optional):</label>
+            <input type="text" id="username" name="username">
+
+            <!-- Submit -->
+            <input type="submit" value="Submit Review">
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Chelsea Afriyie Opoku | <a href="references.html">References</a></p>
+    </footer>
+
+</body>
+</html>

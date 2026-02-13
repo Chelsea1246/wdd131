@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opportunities | Youth Empowerment Hub</title>
+    <meta name="description" content="Browse youth internships, scholarships, and training programs.">
+    <meta name="author" content="Chelsea Afriyie Opoku">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/base.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <span id="course-title">YOUTH EMPOWERMENT & SKILL DEVELOPMENT HUB</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="opportunities.html">Opportunities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Available Opportunities</h1>
+
+        <!-- Filter Options (Optional but cool for JS) -->
+        <section id="filters">
+            <label for="category-filter">Filter by category:</label>
+            <select id="category-filter">
+                <option value="all" selected>All</option>
+                <option value="Internship">Internship</option>
+                <option value="Scholarship">Scholarship</option>
+                <option value="Training">Training</option>
+            </select>
+        </section>
+
+        <!-- Opportunities Container -->
+        <section id="opportunity-list">
+            <div class="opportunity" data-category="Internship">
+                <h2>Tech Startup Internship</h2>
+                <p>Gain hands-on experience working with a dynamic tech startup. Open to students in computer science and related fields.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="opportunity" data-category="Scholarship">
+                <h2>STEM Scholarship</h2>
+                <p>Financial support for students pursuing degrees in science, technology, engineering, or mathematics. Apply now!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="opportunity" data-category="Training">
+                <h2>Leadership Training Program</h2>
+                <p>Develop your leadership skills through our intensive training program. Open to all youth ages 16-24.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Chelsea Afriyie Opoku | <a href="references.html">References</a></p>
+    </footer>
+
+</body>
+
+</html>
