@@ -20,7 +20,7 @@ body {
     line-height: 1.6;
 }
 
-/* ================== HEADER ================== */
+/* HEADER */
 header {
     background-color: var(--primary-color);
     color: white;
@@ -54,7 +54,7 @@ header nav a:hover {
     color: var(--accent-color);
 }
 
-/* ================== HERO SECTION ================== */
+/* HERO SECTION */
 #hero {
     position: relative;
     text-align: center;
